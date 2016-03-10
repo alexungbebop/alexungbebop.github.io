@@ -2,14 +2,15 @@
   border: thin solid #000; }
 
 .alex-img {
-  width: 500px;
-  height: 800px; }
+  width: 700px;
+  height: 800px;
+  background-image: url("imgs/alexUng.jpg"); }
 
 #port {
   position: relative;
   overflow: hidden;
-  width: 500px;
-  height: 750px; }
+  width: 700px;
+  height: 700px; }
 
 .parallax-layer {
   position: absolute; }
