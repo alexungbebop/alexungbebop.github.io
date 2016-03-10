@@ -1,3 +1,19 @@
 .test-box {
   border: thin solid #000;
 }
+
+.alex-img {
+  width: 500px;
+  height: 800px;
+}
+
+#port {
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  height: 750px;
+}
+
+.parallax-layer {
+  position: absolute;
+}
