@@ -9,8 +9,16 @@
   </head>
 
   <body>
-    <div id="port" class="container">
-      <img class="parallax-layer" src="imgs/alexUng.jpg" style="height: 300px; width: 150px;"></img>
+    <div class="background-img">
+      <div class="layer">
+        <div id="sideport">
+          <img class="alex-fn" src="imgs/alexFN.svg"></img>
+        </div>
+
+        <div id="port" class="container">
+          <img class="parallax-layer alex-img" src="imgs/alexUng.svg"></img>
+        </div>
+      </div>
     </div>
     <main class="container test-box">
       <p>Hey folks at Bebop,</p>
@@ -33,6 +41,11 @@
       jQuery('.parallax-layer').parallax({
         mouseport: jQuery("#port")
       });
+
+      // jQuery('.parallax-layer').parallax({
+      //   mouseport: jQuery("#sideport")
+      // });
+
     })()
     </script>
   </body>
