@@ -78,4 +78,47 @@ body {
       .wireframe-background .wireframe-center img.top:hover {
         opacity: 0; }
 
+.product-background {
+  min-height: 800px;
+  padding: 30px 0 70px 0;
+  background-color: #f6f6f3; }
+  .product-background .product-center {
+    display: flex;
+    justify-content: center;
+    position: relative; }
+  .product-background .product {
+    border: thin solid #000;
+    height: 400px;
+    width: 666px; }
+    .product-background .product .page-content {
+      margin: 20px;
+      overflow: hidden;
+      position: relative; }
+      .product-background .product .page-content .hire-alex-please {
+        overflow-y: scroll;
+        position: absolute; }
+
+.awareness-background {
+  min-height: 800px;
+  padding: 30px 0 70px 0; }
+  .awareness-background .awareness-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    position: relative; }
+  .awareness-background .awareness-margin-top {
+    display: flex;
+    justify-content: center;
+    position: absolute; }
+  .awareness-background .awareness-circle {
+    border: thin solid #000;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px; }
+  .awareness-background .hire-alex {
+    color: #FFF;
+    text-align: center;
+    margin: 50px 30px; }
+
 /*# sourceMappingURL=output.css.map */
