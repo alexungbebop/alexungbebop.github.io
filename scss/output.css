@@ -42,8 +42,7 @@ body {
     height: 300px;
     width: 300px; }
     .main-background .circle:hover {
-      background-color: #FFF;
-      color: #000; }
+      background-color: #545454; }
     .main-background .circle .icon-placement {
       display: flex;
       justify-content: center;
