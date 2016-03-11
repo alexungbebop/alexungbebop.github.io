@@ -1,10 +1,13 @@
-.test-box {
-  border: thin solid #000; }
+body {
+  font-family: 'Raleway', sans-serif; }
+
+.main-info {
+  border: thin solid #000;
+  min-height: 400px; }
 
 .background-img {
   background-image: url("../imgs/red-brick-background.jpg");
-  width: 100%;
-  height: 90%; }
+  width: 100%; }
 
 #port {
   position: relative;
@@ -29,5 +32,21 @@
 
 .parallax-layer {
   position: absolute; }
+
+.circle {
+  border: thin solid #000;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px; }
+
+.icon-placement {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 80px; }
+
+.hire-alex {
+  text-align: center;
+  margin: 50px 30px; }
 
 /*# sourceMappingURL=output.css.map */
