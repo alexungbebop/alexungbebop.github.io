@@ -30,10 +30,9 @@ body {
   position: absolute; }
 
 .main-background {
-  background-color: #000; }
-  .main-background .main-info {
-    border: thin solid #000;
-    min-height: 400px; }
+  background-color: #000;
+  min-height: 400px;
+  padding: 30px 0 70px 0; }
   .main-background .main-text {
     color: #FFF; }
   .main-background .circle {
@@ -53,5 +52,23 @@ body {
       color: #FFF;
       text-align: center;
       margin: 50px 30px; }
+
+.wireframe-background {
+  min-height: 500px;
+  padding: 30px 0; }
+  .wireframe-background .container .top, .wireframe-background .container .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 500px; }
+  .wireframe-background .container img {
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out; }
+    .wireframe-background .container img.top:hover {
+      opacity: 0; }
 
 /*# sourceMappingURL=output.css.map */
