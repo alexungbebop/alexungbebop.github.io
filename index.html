@@ -10,8 +10,14 @@
 
   <body>
     <div class="background-img">
-      <div id="port" class="container">
-        <img class="parallax-layer alex-img" src="imgs/alexUng.svg"></img>
+      <div class="layer">
+        <div id="sideport">
+          <img class="alex-fn" src="imgs/alexFN.svg"></img>
+        </div>
+
+        <div id="port" class="container">
+          <img class="parallax-layer alex-img" src="imgs/alexUng.svg"></img>
+        </div>
       </div>
     </div>
     <main class="container test-box">
@@ -35,6 +41,11 @@
       jQuery('.parallax-layer').parallax({
         mouseport: jQuery("#port")
       });
+
+      // jQuery('.parallax-layer').parallax({
+      //   mouseport: jQuery("#sideport")
+      // });
+
     })()
     </script>
   </body>
