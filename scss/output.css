@@ -30,28 +30,52 @@ body {
   position: absolute; }
 
 .main-background {
-  background-color: #000; }
-  .main-background .main-info {
-    border: thin solid #000;
-    min-height: 400px; }
+  background-color: #000;
+  min-height: 800px;
+  padding: 30px 0 70px 0; }
   .main-background .main-text {
     color: #FFF; }
-  .main-background .circle {
-    border: thin solid #FFF;
-    border-radius: 50%;
-    height: 300px;
-    width: 300px; }
-    .main-background .circle:hover {
-      background-color: #545454; }
-    .main-background .circle .icon-placement {
-      display: flex;
-      justify-content: center;
-      font-size: 50px;
-      margin-top: 80px;
-      color: #FFF; }
-    .main-background .circle .hire-alex {
-      color: #FFF;
-      text-align: center;
-      margin: 50px 30px; }
+  .main-background .hire-alex-margin {
+    margin-top: 100px; }
+    .main-background .hire-alex-margin .circle {
+      border: thin solid #FFF;
+      border-radius: 50%;
+      height: 300px;
+      width: 300px; }
+      .main-background .hire-alex-margin .circle:hover {
+        background-color: #545454; }
+      .main-background .hire-alex-margin .circle .icon-placement {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        margin-top: 80px;
+        color: #FFF; }
+      .main-background .hire-alex-margin .circle .hire-alex {
+        color: #FFF;
+        text-align: center;
+        margin: 50px 30px; }
+
+.wireframe-background {
+  min-height: 800px;
+  padding: 30px 0 70px 0; }
+  .wireframe-background .wireframe-center {
+    display: flex;
+    justify-content: center;
+    position: relative; }
+    .wireframe-background .wireframe-center .top, .wireframe-background .wireframe-center .bottom {
+      height: 400px;
+      width: 666px; }
+    .wireframe-background .wireframe-center img {
+      position: absolute;
+      -webkit-transition: opacity 1s ease-in-out;
+      -moz-transition: opacity 1s ease-in-out;
+      -o-transition: opacity 1s ease-in-out;
+      transition: opacity 1s ease-in-out;
+      margin: auto;
+      left: 0;
+      right: 0;
+      margin-top: 10%; }
+      .wireframe-background .wireframe-center img.top:hover {
+        opacity: 0; }
 
 /*# sourceMappingURL=output.css.map */
