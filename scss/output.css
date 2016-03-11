@@ -102,6 +102,7 @@ body {
   min-height: 800px;
   padding: 30px 0 70px 0; }
   .awareness-background .awareness-center {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,17 +111,22 @@ body {
     display: flex;
     justify-content: center;
     position: absolute; }
-  .awareness-background .awareness-circle {
-    border: thin solid #000;
-    border-radius: 50%;
-    height: 300px;
-    width: 300px; }
-  .awareness-background .hire-alex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    text-align: center;
-    margin: 50px 30px; }
+    .awareness-background .awareness-margin-top .awareness-link:hover {
+      text-decoration: none; }
+    .awareness-background .awareness-margin-top .awareness-circle {
+      border: thin solid #000;
+      border-radius: 50%;
+      height: 300px;
+      width: 300px; }
+      .awareness-background .awareness-margin-top .awareness-circle:hover {
+        background-color: #000;
+        color: #FFF; }
+    .awareness-background .awareness-margin-top .hire-alex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      text-align: center;
+      margin: 50px 30px; }
 
 /*# sourceMappingURL=output.css.map */

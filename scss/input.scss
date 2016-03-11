@@ -157,6 +157,7 @@ body {
   padding: 30px 0 70px 0;
 
   .awareness-center {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,22 +168,33 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-  }
 
-  .awareness-circle {
-    border: thin solid #000;
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-  }
+    .awareness-link {
+      &:hover {
+        text-decoration: none;
+      }
+    }
 
-  .hire-alex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:20px;
-    text-align: center;
-    margin: 50px 30px;
+    .awareness-circle {
+      border: thin solid #000;
+      border-radius: 50%;
+      height: 300px;
+      width: 300px;
+
+      &:hover {
+        background-color: #000;
+        color: #FFF;
+      }
+    }
+
+    .hire-alex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding:20px;
+      text-align: center;
+      margin: 50px 30px;
+    }
   }
 }
 
