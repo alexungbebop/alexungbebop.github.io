@@ -139,7 +139,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute; }
-    .awareness-background .awareness-margin-top .awareness-link:hover {
+    .awareness-background .awareness-margin-top .awareness-link:hover, .awareness-background .awareness-margin-top .awareness-link:active, .awareness-background .awareness-margin-top .awareness-link:link, .awareness-background .awareness-margin-top .awareness-link:visited {
       text-decoration: none; }
     .awareness-background .awareness-margin-top .awareness-circle {
       border: thin solid #000;

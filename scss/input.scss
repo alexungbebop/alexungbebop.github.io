@@ -196,7 +196,7 @@ body {
     position: absolute;
 
     .awareness-link {
-      &:hover {
+      &:hover, &:active, &:link, &:visited {
         text-decoration: none;
       }
     }
